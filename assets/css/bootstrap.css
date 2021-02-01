@@ -32,6 +32,10 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
+.color2 {
+  background-color: #D0A014;
+}
+
 *,
 *::before,
 *::after {
@@ -71,6 +75,8 @@ hr {
 hr:not([size]) {
   height: 1px;
 }
+
+
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
@@ -563,6 +569,8 @@ progress {
 .blockquote-footer::before {
   content: "— ";
 }
+
+
 
 .img-fluid {
   max-width: 100%;
@@ -10713,5 +10721,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+
 
 /*# sourceMappingURL=bootstrap.css.map */
