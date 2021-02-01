@@ -25,12 +25,12 @@
   <link href="assets/css/css.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="pt-0 ">
 
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark " >
       <div class="container-fluid">
-        <img src="assets/img/logo_AC.png" alt="logo empresa">
+        <img src="assets/img/logo_AC.png" class="paddingLogo"  alt="logo empresa">
         
       </div>
     </nav>
@@ -38,16 +38,17 @@
 
   <main>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide " data-ride="carousel">
+      
       <!--ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol-->
-      <div class="carousel-inner mb-5">
-        <div class="carousel-item active">
+      <div class="carousel-inner mb-5 ">
+        <div class="carousel-item active ">
           <!--svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg-->
-          <img src="assets/img/principal3.JPG" class="img-fluid imgCaro" alt="">
+          <img src="assets/img/principal3.JPG" class="img-fluid " alt="">
 
 
           <div class="container ">
@@ -233,22 +234,17 @@
             <div id="contact" class="container"  >
 
               <div class="row justify-content-center "  >
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-2 mb-5" >
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-12 mt-2 mb-5" >
                         
                   <div class="mt-2 mb-2 text-center " >
-                    <h1 >Contacto</h1>
+                    <h2 >Contacto</h2>
                   </div>
                     <!--Form with header-->
 
                     <form action="mail.php" method="post"  >
-                      <div id="cuadro" class=" rounded-0"  >
-                        <div class="card-header p-0 " >
-                          <div class=" text-dark text-center py-2" >
-                              <h3 class=""><i class="fa fa-envelope" ></i> Contactanos</h3>
-                              <p class="m-0">Con gusto te ayudaremos</p>
-                          </div>
-                        </div>
-                        <div class="card-body p-3">
+                      <div   >
+                        
+                        <div class="card-body p-1">
 
                             <!--Body-->
                           <div class="form-group">
@@ -278,7 +274,7 @@
                           </div>
 
                           <div class="text-center">
-                            <input type="submit" value="Enviar" class="col-12 btn btn-sm btn-outline-secondary" >
+                            <input type="submit" value="Enviar" class="col-6 btn btn-sm btn-primary" >
                           </div>
                         </div>
 
@@ -287,7 +283,7 @@
                     <!--Form with header-->
             
             
-                            </div>
+                 </div>
             
                 </div>
               </div>         
