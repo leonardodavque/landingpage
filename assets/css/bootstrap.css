@@ -7229,7 +7229,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   /*background-color: #212529 !important;*/
-  background-color: (33,37,41,0.40)
+  background-color: rgba(33,37,41,0.40) !important;
 }
 
 
